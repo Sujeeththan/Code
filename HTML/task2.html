@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .table,
+    th,
+    td {
+        border: 2px solid;
+        border-collapse: collapse;
+        border-color: #CEC998;
+        width: 50%;
+        height: 40px;
+    }
+    .A {
+        background-color: #F7DF1E;
+        width: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .B {
+        background: #8D7F0F;
+        box-sizing: content-box;
+        height: 70px;
+    }
+    .C {
+        color: #8D7F0F;
+        border: 2px solid;
+        width: 20%;
+        height: 68px;
+    }
+    .X {
+        background-color: white;
+        width: 25px;
+        height: 35px;
+    }
+    .B,
+    .X,
+    .C {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex {
+        display: flex;
+    }
+    .D {
+        font-style: italic;
+    }
+    .flex2 {
+        display: flex;
+    }
+    .D,
+    .Y {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5B6271;
+    }
+    .F {
+        color: #8D7F0F;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .G {
+        background-color: #1F1F1F;
+        width: 40%;
+        color: rgb(16, 90, 154);
+    }
+    .H {
+        color: #FCFBF8;
+        text-align: left;
+    }
+    .footer {
+        background-color: #CCC489;
+        display: flex;
+        /* height: 100px; */
+    }
+    .I {
+        padding-left: 1400px;
+    }
+    
+    .align {
+        margin: 30px;
+    }
+    .center {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+        margin: 20px;
+    }
+    .center2 {
+        align-items: center;
+    }
+
+    .container{
+        margin: 20% auto;
+        border: 1px solid ;
+        width: 1000px;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="container" >
+        <div class="A">
+            <h4>JS</h4>
+        </div>
+        <div class="align">
+            <div class="flex">
+                <div class="B">
+                    <h1>Variable Declaration </h1>
+                    <h1 class="X">& </h1>
+                </div>
+                <div class="C">
+                    <h1>Initialization</h1>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="flex2">
+                <div class="D">
+                    <h3>JavaScript:</h3>
+                </div>
+                <div class="Y">
+                    <h3>uses three main keywords to declare variables:</h3>
+                </div>
+            </div>
+            <div class="E">
+                <table class="table">
+                    <tr>
+                        <th>Keyword</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <th> <mark style="background-color: #EADF84;">Let</mark></th>
+                        <td>Modern way(block-scoped). Preferred for values that will change reassignable</td>
+                    </tr>
+                    <tr>
+                        <th> <mark style="background-color: #EADF84;">const</mark></th>
+                        <td>Constant(block-scoped). Preferred for values that won't change (but object properties can
+                            change)</td>
+                    </tr>
+                    <tr>
+                        <th> <mark style="background-color: #EADF84;">var</mark></th>
+                        <td>Old way (function-scoped). Avoid using in modern JS.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="F">
+            <h3>&#129106; Example:</h3>
+        </div>
+        <div class="center2">
+            <div class="G">
+                <p>let age = 25; //Immutable</p>
+                <p>const PI = 3.14; //immutable (reassignment throws error)</p>
+                <p>var name = "Alice"; //Avoid (leaks scope)</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="H">
+                <p>Stepping Stone to Tech Life</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReNVHiiU6BXZKod3vk41nZeF0vykdzm9aC3w&s"
+                    alt="" width="100px" height="100px" style="background-color: #CCC489;" class="I">
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        alert("JavaScript");
+        console.log("Name");
+        console.error("Age");
+        //declaration   let
+          //   let PI;  //Declaration
+           //  let PI = 3.14; //Declaration Initialization
+           //  let PI = 3;  //not re-declaration
+           //      PI = 3;  // re-asignment
+    
+        //declaration   Const
+           // const PI;  //not declaration
+           // const PI = 3.14;  // declaration Initialization
+           // const PI = 3.24;  // not re-asignment
+           // const PI = 3.24;  // not re-declaration
+
+    </script> -->
+</body>
+</html>

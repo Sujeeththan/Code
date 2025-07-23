@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .button {
+        background-color: green;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 5px;
+        border: none;
+    }
+</style>
+
+<body>
+    <input type="button" value="+" class="button" onclick="(alert('button click'))">
+    <input type="button" value="-" class="button" onclick="(alert('button click'))">
+
+    <script>
+        function add() {
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+
+            let result = num1 + num2;
+            document.getElementById().value = result;
+        };
+
+        function sub() {
+            let num1 = 15;
+            let num2 = 35;
+
+            let result = num1 - num2
+
+            console.log(result);
+        };
+    </script>
+</body>
+
+</html>

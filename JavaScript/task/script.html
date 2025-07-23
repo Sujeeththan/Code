@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img {
+        width: 50%;
+        text-align: center;
+        margin-left: 300px;
+    }
+
+
+
+    .container {
+        display: flex;
+        gap: 600px;
+    }
+
+    .btn1{
+        cursor: pointer;
+        margin-left: 370px;
+    }
+
+    .btn2{
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="img">
+        <img id="bulb" src="log.png" alt="">
+    </div>
+    <div class="container">
+        <div class="btn1">
+            <button id="lightOn" onclick="turnOn()" style="background-color:  #0494d2; color: white; border: none; width: 60px; height: 50px; border-radius: 5px;">ON</button>
+        </div>
+        <div class="btn2">
+            <button  onclick="turnOff()" style="background:  #0494d2; color: white; border: none; width: 60px; height: 50px; border-radius: 5px;">OFF</button>
+        </div>
+    </div>
+
+    <script>
+        function turnOn() {
+            document.getElementById('bulb').src = "pic_on.png";
+
+        }
+        function turnOff() {
+            document.getElementById('bulb').src = "log.png";
+        }
+    </script>
+
+</body>
+
+</html>

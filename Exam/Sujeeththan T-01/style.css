@@ -1,0 +1,134 @@
+.header{
+    background-color:#13334d ;
+    height: 50px;
+    
+}
+
+.table th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.nav{
+    display:flex;
+    gap: 20%;
+    cursor: pointer;
+
+}
+
+.button1{
+    height: 20px;
+    background-color: #e67e22;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+.button2{
+    background-color:#00b894 ;
+    border-radius: 5px;
+    border: none;
+    color:aliceblue ;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.center1{
+    text-align: center  ;
+}
+
+.card{
+    border: 1px solid;
+    width: 30%;
+    border-radius: 10px;
+    height:100px;
+    padding:10px;
+}
+
+.card1{
+    border: 1px solid;
+    width: 30%;
+    border-radius: 10px;
+    height: 100px;
+    padding:10px;
+}
+
+.card2{
+    border: 1px solid;
+    width: 30%;
+    border-radius: 10px;
+    height: 100px;
+    padding:10px;
+}
+
+.grid{
+    display:flex;
+    gap: 10px;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 1 1fr;
+}
+
+.center2{
+    text-align: center;
+}
+
+.color1{
+    color:rgb(44, 146, 210) ;
+}
+
+.color2{
+    color:rgb(44, 146, 210) ;
+}
+
+.color3{
+    color:rgb(44, 146, 210) ;
+}
+
+.nav2{
+    margin: 15px left;
+    padding: 10px;
+}
+
+.table2{
+    align-items: baseline;
+}
+
+.footer{
+    background-color:#13334d ;
+    height: 50px;
+    display: flex;
+}
+
+.option2{
+    margin: 15px left;
+    padding: 10px;
+}
+
+th{
+    background-color: #2d3436;
+    color: aliceblue ;
+}
+
+.center3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        Body{
+            margin:60px;
+            background: linear-gradient(to bottom right, rgb(239, 220, 172), rgb(93, 31, 124));
+        }
+        div {
+            background-color: white;
+            /* width: 200px; */
+            padding: 15px;
+            /* margin: 15px; */
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 2px 1px rgb(172, 170, 170);
+            /* height: 250px; */
+        }
+        footer{
+            margin: 0px 40%;
+        }
+        header {
+            display: flex;
+            margin:20px 30%;
+            gap: 30px;
+        }
+        div.cardper {
+            background: linear-gradient(to bottom right, rgb(77, 94, 220), rgb(93, 31, 124));
+        }
+        div.class {
+            color: white;
+        }
+        h2 {
+            color: rgb(0, 3, 6);
+            text-align: center;
+        }
+        P.price {
+            color: white;
+        }
+        p {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color:rgb(77, 94, 220) ;
+        }
+        button{
+            width: 150px;
+            padding: 10px;
+            border-color: none;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .button{
+             background-image: linear-gradient(to bottom right, rgb(77, 94, 220), rgb(93, 31, 124));
+             color: white;
+        }
+        ul {
+            text-align: left;
+            padding-left: 1px;
+        }
+        li{
+            padding: 5px;
+            list-style: none;
+        }
+        ul.ul{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="card">
+            <h2 class="basic">Basic Plan</h2>
+            <p>$19/mo</p>
+            <ul>
+                <li>&#x2713 5 Projects</li>
+                <li>&#x2713 10GB Storage </li>
+                <li>&#x2713 Basic Support</li>
+                <li>&#x2713 Email Report</li>
+            </ul>
+            <button class="button">Cloose Plan</button>
+        </div>
+        <div class="cardper">
+            <h2>Pro Plan</h2>
+            <p class="price">$49/mo</p>
+            <ul class="ul">
+                <li>&#x2713 Unlimited Projects</li>
+                <li>&#x2713 100 GB Storage</li>
+                <li>&#x2713 Priority Support</li>
+                <li>&#x2713 Customer Report</li>
+            </ul>
+            <button>Cloose Plan</button>
+        </div>
+    </header>
+    <footer>
+        <div class="card">
+            <h2>Enterprise</h2>
+            <p>$99/mo</p>
+            <ul>
+                <li>&#x2713 unlimited Projects</li>
+                <li>&#x2713 1 TB Storage</li>
+                <li>&#x2713 24/7 Support</li>
+                <li>&#x2713 Dedicate Manager</li>
+            </ul>
+            <button class="button">Cloose Plan</button>
+        </div>
+    </footer>
+</body>
+</html>
