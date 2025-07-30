@@ -1,0 +1,53 @@
+.student {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #3f51b5;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+.details {
+    box-shadow: 0px 0px 2px;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.fieldset {
+    width: 250px;
+}
+
+.input {
+    width: 250px;
+}
+
+.btn1,
+.btn2 {
+    margin: 8px;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    height: 25px;
+}
+
+.btn1:hover {
+    background-color: #2b3faf;
+}
+
+.btn2:hover {
+    background-color: #2b3faf;
+}
+
+.footer {
+    background-color: #3f51b5;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+

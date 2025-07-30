@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="student">
+        <div>
+            <header class="header">
+                <h1>Student Info Form</h1>
+            </header>
+        </div>
+        <form action="">
+            <div class="details">
+                <div>
+                    <div>
+                        <label for="Full Name">Full Name:</label>
+                        <br>
+                        <input type="text" name="text" id="name" class="input">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Age">Age:</label>
+                        <br>
+                        <input type="number" name="number" id="age" class="input">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" class="input">
+                    </div>
+                </div>
+                <div class="fieldset">
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <br><br>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Subjects</legend>
+                        <input type="checkbox" name="text" id="maths">
+                        <label for="maths">Maths</label>
+                        <br><br>
+                        <input type="checkbox" name="text" id="science">
+                        <label for="science">Science</label>
+                        <br><br>
+                        <input type="checkbox" name="taxt" id="english">
+                        <label for="english">English</label>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit" class="btn1" onclick="submitform(event)">
+                    <input type="submit" value="Clear Entries" class="btn2" onclick="clearform()">
+                </div>
+            </div>
+        </form>
+        <div>
+            <p id="output"></p>
+        </div>
+        <div>
+            <footer class="footer">
+                <h3>Weekend Task - JS Basics</h3>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
